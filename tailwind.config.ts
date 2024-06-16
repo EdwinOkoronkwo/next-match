@@ -10,7 +10,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        "dark-gradient":
+          "linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent)",
+      },
     },
   },
   darkMode: "class",
